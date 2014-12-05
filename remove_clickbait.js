@@ -9,7 +9,9 @@ var websites = [
 		"buzzfeed.com",
 		"lajkat.se",
 		"viralwomen.com",
-		"huffingtonpost.com"
+		"huffingtonpost.com",
+		"upworthy.com",
+		"expressen.se/omtalat"
 	]
 
 var buildQuery = function(strings) {
