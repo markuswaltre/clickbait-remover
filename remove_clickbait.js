@@ -11,7 +11,8 @@ var websites = [
 		"viralwomen.com",
 		"huffingtonpost.com",
 		"upworthy.com",
-		"expressen.se/omtalat"
+		"expressen.se/omtalat",
+		"viralt.aftonbladet.se"
 	]
 
 var buildQuery = function(strings) {
