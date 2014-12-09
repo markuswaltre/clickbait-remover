@@ -1,5 +1,3 @@
-console.log('Clickbait remover is running');
-
 window.addEventListener("scroll", function(evt) {
    removePosts();
 });
@@ -8,11 +6,12 @@ var query = "";
 var websites = [
 		"buzzfeed.com",
 		"lajkat.se",
-		"viralwomen.com",
-		"huffingtonpost.com",
 		"upworthy.com",
 		"expressen.se/omtalat",
-		"viralt.aftonbladet.se"
+		"viralt.aftonbladet.se",
+		"newsner.com",
+		"dailydip.tv",
+		"klippers.se"
 	]
 
 var buildQuery = function(strings) {
@@ -37,9 +36,8 @@ var removePosts = function() {
 
 			var contains = posts[item].querySelectorAll(query);
 			if(contains.length > 0) {
-				console.log('removed');
-				posts[item].innerHTML = "Removed <small>by Clickbait remover</small>";
-				posts[item].style.color = "lightgrey";
+				posts[item].innerHTML = "Removed by Clickbait Remover for Facebook";
+				posts[item].style.color = "red";
 			}
 
 		}
