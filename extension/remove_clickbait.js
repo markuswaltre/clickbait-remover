@@ -11,7 +11,8 @@ var websites = [
 		"viralt.aftonbladet.se",
 		"newsner.com",
 		"dailydip.tv",
-		"klippers.se"
+		"klippers.se",
+		"expressen.se/noje/det-glomde-jag"
 	]
 
 var buildQuery = function(strings) {
