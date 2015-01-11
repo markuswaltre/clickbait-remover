@@ -1,6 +1,6 @@
 {
   "name": "Clickbait Remover for Facebook",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Finds clickbait articles in your facebook feed and removes them, such as upworthy.com",
   "icons": { "128": "icon.png" },
   "content_scripts": [

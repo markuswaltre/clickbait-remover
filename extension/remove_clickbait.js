@@ -12,7 +12,10 @@ var websites = [
 		"newsner.com",
 		"dailydip.tv",
 		"klippers.se",
-		"expressen.se/noje/det-glomde-jag"
+		"expressen.se/noje/det-glomde-jag",
+		"themindunleashed.org",
+		"thechive.com",
+		"likes.com"
 	]
 
 var buildQuery = function(strings) {
