@@ -15,7 +15,8 @@ var websites = [
 		"expressen.se/noje/det-glomde-jag",
 		"themindunleashed.org",
 		"thechive.com",
-		"likes.com"
+		"likes.com",
+		"uppskattat.se"
 	]
 
 var buildQuery = function(strings) {
